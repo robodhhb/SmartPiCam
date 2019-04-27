@@ -8,7 +8,7 @@ Edge TPU von Google die Objekte "Apfel" und "Flasche" erkennt. Das neuronale Net
 auf Basis des COCO-Datensatzes. Das Inferencing findet auf der Edge TPU statt. Der Raspberry Pi kann dadurch
 6 Bilder pro Sekunde anzeigen und erkannte Objekte kennzeichnen. Die Bilder haben eine Auflösung 
 von 300 x 300 Pixel. Das "Video SmartPiCam HD" zeigt eine Aufnahme
-des Desktops vom Raspberry Pi in Echtzeit. Im Ordener "SmartPiCam" befindet sich eine Installationsanleitung
+des Desktops vom Raspberry Pi in Echtzeit. Im Ordener "SmartPiCam" befinden sich eine Installationsanleitung
 und die Python Quellen.
 
 Welcome to the SmartPiCam!
