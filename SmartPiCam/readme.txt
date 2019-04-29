@@ -50,7 +50,7 @@ b) Meldung nach dem Laden des Modells:
 
     
 ========================English Version====================================
-Installation of the aplication "SmartPiCam"
+Installation of the application "SmartPiCam"
 --------------------------------------------
 Prerequisite: Raspberry Pi 2/3 Model B/B+ with Raspbian 
 Installation steps:
