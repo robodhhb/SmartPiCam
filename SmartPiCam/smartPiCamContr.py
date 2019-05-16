@@ -6,7 +6,7 @@
 #
 # File: smartCamContr.py
 # Author: Detlef Heinze 
-# Version: 1.1     Date: 22.04.2019       
+# Version: 1.2     Date: 16.05.2019       
 ###########################################################
 from picamera import PiCamera
 from time import sleep
@@ -25,8 +25,8 @@ class SmartPiCamContr(object):
         self.appDuration= appDuration #seconds to run
         self.minObjectScore= minObjectScore
         
-        modelFile= '../test_data/mobilenet_ssd_v2_coco_quant_postprocess_edgetpu.tflite'
-        objectLabelsFile= '../test_data/coco_labels.txt'
+        modelFile= 'mobilenet_ssd_v2_coco_quant_postprocess_edgetpu.tflite'
+        objectLabelsFile= 'coco_labels.txt'
         print("Reading Model: ", modelFile)
         self.engine= DetectionEngine(modelFile)
         print("Reading object labels: ", objectLabelsFile)
@@ -67,7 +67,7 @@ class SmartPiCamContr(object):
             ret[int(pair[0])] = pair[1].strip()
         return ret
 
-    #Step 10: Predict the the picture by running it on the TPU
+    #Step 10: Predict the picture by running it on the TPU
     def predict(self, picData):
         print("\nPredicting imgage on TPU")
         print('Shape of data: ', picData.shape)
