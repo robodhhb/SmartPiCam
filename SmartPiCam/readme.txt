@@ -29,11 +29,9 @@ Die Installation besteht aus:
 
 7) LXTerminal öffnen und zip-Datei mit unzip in einem Ordner Ihrer Wahl entpacken
    
-8) Ordner "SmartPiCam" kopieren nach /home/pi/python-tflite-source/edgetpu/
+8) In den Ordner "SmartPiCam" mit cd wechslen
 
-9) cd /home/pi/python-tflite-source/edgetpu/SmartPiCam
-
-10) Programm starten:
+9) Programm starten:
     python3 smartPiCamMain.py
    
 Bekannte Probleme:
@@ -80,11 +78,9 @@ Installation steps:
    
 7) Open LXTerminal and unzip downloaded file in a folder of your choice
    
-8) Copy folder "SmartPiCam" to /home/pi/python-tflite-source/edgetpu/
+8) Change directory to "SmartPiCam"
 
-9) cd /home/pi/python-tflite-source/edgetpu/SmartPiCam
-
-10) Run the program:
+9) Run the program:
     python3 smartPiCamMain.py
    
 Known issues:
