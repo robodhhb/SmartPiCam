@@ -10,7 +10,8 @@ kann dadurch 6 Bilder pro Sekunde anzeigen und erkannte Objekte kennzeichnen(TPU
 Die Bilder haben eine Auflösung von 300 x 300 Pixel. Das "Video SmartPiCam HD" zeigt eine Aufnahme
 des Desktops vom Raspberry Pi in Echtzeit. Im Ordner "SmartPiCam" befinden sich eine Installationsanleitung
 und die Python Quellen. Das Projekt ist ausführlich beschrieben im Artikel "Objekterkennung mit Pi-Kamera
-und Edge-TPU", deutsches Make-Magazin 03/2019, 20.06.2019, Seite 58-62. 
+und Edge-TPU", deutsches Make-Magazin 03/2019, 20.06.2019, Seite 58-62.
+https://www.heise.de/select/make/2019/3/1561278575740040
 
 Welcome to the SmartPiCam!
 
@@ -21,4 +22,5 @@ The Raspberry Pi is therefore able to detect and mark objects on 6 pictures per 
 (TPU configuration with default operating frequency). The pictures have a resolution of 300 x 300 Pixel. 
 The "Video SmartPiCam HD" shows a real time recording of the pi's desktop. See folder "SmartPiCam" 
 for an installation manual and the python sources. This project is described in the article
-"Objekterkennung mit Pi-Kamera und Edge-TPU", german Make Magazine 03/2019, 20.6.2019, p. 58-62. 
+"Objekterkennung mit Pi-Kamera und Edge-TPU", german Make Magazine 03/2019, 20.6.2019, p. 58-62.
+https://www.heise.de/select/make/2019/3/1561278575740040
