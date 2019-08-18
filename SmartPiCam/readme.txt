@@ -1,6 +1,7 @@
 Installation der SmartPiCam Applikation (see English Version below)
 ===================================================================
-Voraussetzung: Raspberry Pi 2/3 Model B/B+ mit Raspbian 
+Voraussetzung: Raspberry Pi 2/3 Model B/B+ mit Raspbian
+Gestestet mit Raspbian Stretch und Python 3.5.3
 Die Installation besteht aus:
 
 1) Raspbian z.B. installiert mit NOOBS
@@ -51,6 +52,7 @@ b) Meldung nach dem Laden des Modells:
 Installation of the application "SmartPiCam"
 --------------------------------------------
 Prerequisite: Raspberry Pi 2/3 Model B/B+ with Raspbian 
+Tested with Raspbian Stretch and Python 3.5.3
 Installation steps:
 
 1) Install Raspbian e.g. with NOOBS
