@@ -1,7 +1,9 @@
 Installation der SmartPiCam Applikation (see English Version below)
 ===================================================================
 Voraussetzung: Raspberry Pi 2/3 Model B/B+ mit Raspbian
-Gestestet mit Raspbian Stretch und Python 3.5.3
+Gestestet mit: 
+     - Raspbian Stretch und Python 3.5.3
+     - Rasbian Buster und Python 3.7.3 
 Die Installation besteht aus:
 
 1) Raspbian z.B. installiert mit NOOBS
@@ -20,6 +22,8 @@ Die Installation besteht aus:
    Achtung: Erst SW installieren, dann Edge TPU über USB anschließen!
    Siehe: g.co/coral  und den "Get started guide":
    https://coral.withgoogle.com/docs/accelerator/get-started/
+   Achtung: Rasbian Buster user: Bitte auf Hinweise zu Python 3.7 achten.
+            Statt "sudo apt-get update" Befehle: "sudo apt update" und "sudo apt full-upgrade" ausführen
    Auf die Frage: Would you like to enable the maximum operating frequency? Y/N
    am besten mit "N" antworten, da die normale Geschwindigkeit für diese Anwendung 
    ausreicht.
@@ -52,7 +56,9 @@ b) Meldung nach dem Laden des Modells:
 Installation of the application "SmartPiCam"
 --------------------------------------------
 Prerequisite: Raspberry Pi 2/3 Model B/B+ with Raspbian 
-Tested with Raspbian Stretch and Python 3.5.3
+Tested with:
+     - Raspbian Stretch und Python 3.5.3
+     - Rasbian Buster und Python 3.7.3 
 Installation steps:
 
 1) Install Raspbian e.g. with NOOBS
@@ -71,6 +77,8 @@ Installation steps:
    Caution: First install the software then connect Edge TPU to the USB-Port!
    See: g.co/coral  and the Get started guide:
    https://coral.withgoogle.com/docs/accelerator/get-started/
+   Caution: Rasbian Buster user: See hints for Python 3.7 .
+            Instead of "sudo apt-get update" execute "sudo apt update" and "sudo apt full-upgrade"
    Anser to the question: Would you like to enable the maximum operating frequency? Y/N
    with "N". The normal operating frequency is enough for this application
    
