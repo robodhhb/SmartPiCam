@@ -1,7 +1,7 @@
 Installation der SmartPiCam Applikation (see English Version below)
 ===================================================================
 Voraussetzung: Raspberry Pi 2/3 Model B/B+ mit Raspbian
-Gestestet mit: 
+Getestet mit: 
      - Raspbian Stretch und Python 3.5.3
      - Raspbian Buster und Python 3.7.3 
 Die Installation besteht aus:
