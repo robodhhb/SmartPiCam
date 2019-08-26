@@ -77,9 +77,9 @@ Installation steps:
    Caution: First install the software then connect Edge TPU to the USB-Port!
    See: g.co/coral  and the Get started guide:
    https://coral.withgoogle.com/docs/accelerator/get-started/
-   Caution: Rasbian Buster user: See hints for Python 3.7 .
+   Caution: Raspbian Buster user: See hints for Python 3.7 .
             Instead of "sudo apt-get update" execute "sudo apt update" and "sudo apt full-upgrade"
-   Anser to the question: Would you like to enable the maximum operating frequency? Y/N
+   Answer to the question: Would you like to enable the maximum operating frequency? Y/N
    with "N". The normal operating frequency is enough for this application
    
 6) Download the GitHub-Repository 
