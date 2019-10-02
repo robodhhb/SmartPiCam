@@ -24,9 +24,7 @@ Die Installation besteht aus:
    https://coral.withgoogle.com/docs/accelerator/get-started/
    Achtung: Rasbian Buster user: Bitte auf Hinweise zu Python 3.7 achten.
             Statt "sudo apt-get update" Befehle: "sudo apt update" und "sudo apt full-upgrade" ausführen
-   Auf die Frage: Would you like to enable the maximum operating frequency? Y/N
-   am besten mit "N" antworten, da die normale Geschwindigkeit für diese Anwendung 
-   ausreicht.
+   Es reicht aus, die Edge TPU mit "default operating frequency" zu installieren.
    
 6) Download des GitHub-Repository 
    auf dem Raspberry Pi unter dem user "pi":
@@ -79,8 +77,7 @@ Installation steps:
    https://coral.withgoogle.com/docs/accelerator/get-started/
    Caution: Raspbian Buster user: See hints for Python 3.7 .
             Instead of "sudo apt-get update" execute "sudo apt update" and "sudo apt full-upgrade"
-   Answer to the question: Would you like to enable the maximum operating frequency? Y/N
-   with "N". The normal operating frequency is enough for this application
+   It is sufficient to install the Edge TPU with default operating frequency.
    
 6) Download the GitHub-Repository 
    on the Raspberry Pi under the user "pi":
