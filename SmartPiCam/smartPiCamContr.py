@@ -6,7 +6,7 @@
 #
 # File: smartCamContr.py
 # Author: Detlef Heinze 
-# Version: 1.2     Date: 16.05.2019       
+# Version: 1.3     Date: 28.10.2019       
 ###########################################################
 from picamera import PiCamera
 from time import sleep
@@ -74,9 +74,9 @@ class SmartPiCamContr(object):
         flatArray= picData.flatten() #3D to 1D conversion
         print('Input array size: ', flatArray.shape)
         #Call the TPU to detect objects on the image with a neural network
-        result = self.engine.DetectWithInputTensor(flatArray,
-                                                   threshold=self.minObjectScore,
-                                                   top_k=10)
+        result = self.engine.detect_with_input_tensor(flatArray,
+                                                      threshold=self.minObjectScore,
+                                                      top_k=10)
         return result
     
     #Step 12: Analyse the result of inferencing on the TPU.
