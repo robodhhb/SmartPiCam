@@ -1,7 +1,7 @@
 Installation der SmartPiCam Applikation (see English Version below)
 ===================================================================
-Voraussetzung: Raspberry Pi 2/3 Model B/B+ mit Raspbian
-Getestet mit: 
+Voraussetzung: Raspberry Pi 2/3 Model B/B+ and 4 mit Raspbian
+Getestet auf Model 3 B+ mit: 
      - Raspbian Stretch und Python 3.5.3
      - Raspbian Buster und Python 3.7.3 
 Die Installation besteht aus:
@@ -20,10 +20,12 @@ Die Installation besteht aus:
 
 5) Installation der Edge TPU:
    Achtung: Erst SW installieren, dann Edge TPU über USB anschließen!
-   Siehe: g.co/coral  und den "Get started guide":
+   Siehe den Get Started Giude:
    https://coral.withgoogle.com/docs/accelerator/get-started/
-   Achtung: Rasbian Buster user: Bitte auf Hinweise zu Python 3.7 achten.
-            Statt "sudo apt-get update" Befehle: "sudo apt update" und "sudo apt full-upgrade" ausführen
+   Minimale Installation:
+        1) Install Edge TPU Runtime
+        2) Install Edge TPU Pyton API unter:
+           https://coral.withgoogle.com/docs/edgetpu/api-intro/
    Es reicht aus, die Edge TPU mit "default operating frequency" zu installieren.
    
 6) Download des GitHub-Repository 
@@ -53,8 +55,8 @@ b) Meldung nach dem Laden des Modells:
 ========================English Version====================================
 Installation of the application "SmartPiCam"
 --------------------------------------------
-Prerequisite: Raspberry Pi 2/3 Model B/B+ with Raspbian 
-Tested with:
+Prerequisite: Raspberry Pi 2/3 Model B/B+ and 4 with Raspbian 
+Tested on Model 3 B+ with:
      - Raspbian Stretch und Python 3.5.3
      - Raspbian Buster und Python 3.7.3 
 Installation steps:
@@ -73,10 +75,12 @@ Installation steps:
 
 5) Installation of the Edge TPU:
    Caution: First install the software then connect Edge TPU to the USB-Port!
-   See: g.co/coral  and the Get started guide:
+   See: Get started guide:
    https://coral.withgoogle.com/docs/accelerator/get-started/
-   Caution: Raspbian Buster user: See hints for Python 3.7 .
-            Instead of "sudo apt-get update" execute "sudo apt update" and "sudo apt full-upgrade"
+   Minimal installation:
+        1) Install Edge TPU Runtime
+        2) Install Edge TPU Pyton API on:
+           https://coral.withgoogle.com/docs/edgetpu/api-intro/
    It is sufficient to install the Edge TPU with default operating frequency.
    
 6) Download the GitHub-Repository 
