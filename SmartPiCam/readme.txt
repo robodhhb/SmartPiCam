@@ -24,7 +24,7 @@ Die Installation besteht aus:
    https://coral.withgoogle.com/docs/accelerator/get-started/
    Minimale Installation:
         1) Install Edge TPU Runtime
-        2) Install Edge TPU Pyton API unter:
+        2) Install Edge TPU Python API unter:
            https://coral.withgoogle.com/docs/edgetpu/api-intro/
    Es reicht aus, die Edge TPU mit "default operating frequency" zu installieren.
    
@@ -79,7 +79,7 @@ Installation steps:
    https://coral.withgoogle.com/docs/accelerator/get-started/
    Minimal installation:
         1) Install Edge TPU Runtime
-        2) Install Edge TPU Pyton API on:
+        2) Install Edge TPU Python API on:
            https://coral.withgoogle.com/docs/edgetpu/api-intro/
    It is sufficient to install the Edge TPU with default operating frequency.
    
