@@ -13,6 +13,8 @@ und die Python Quellen. Das Projekt ist ausführlich beschrieben im Artikel "Obj
 und Edge-TPU", deutsches Make-Magazin 03/2019, 20.06.2019, Seite 58-62.
 https://www.heise.de/select/make/2019/3/1561278575740040
 
+Siehe auch: https://github.com/robodhhb/RoboPiCam
+
 Welcome to the SmartPiCam!
 
 This project realizes a smart camera with the Raspberry Pi. It detects the objects "apple" and "bottle" in real time using 
@@ -24,3 +26,6 @@ The "Video SmartPiCam HD" shows a real time recording of the pi's desktop. See f
 for an installation manual and the python sources. This project is described in the article
 "Objekterkennung mit Pi-Kamera und Edge-TPU", german Make Magazine 03/2019, 20.6.2019, p. 58-62.
 https://www.heise.de/select/make/2019/3/1561278575740040
+
+See also: https://github.com/robodhhb/RoboPiCam
+
