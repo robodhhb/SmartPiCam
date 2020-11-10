@@ -1,3 +1,6 @@
+!!! HINT: This installation is based on Edge TPU Python API which is deprecated !!!
+!!! Use insatllation in the parallel folder "SmartPiCam_with_PyCoral_API" instead!!!
+
 Installation der SmartPiCam Applikation (see English Version below)
 ===================================================================
 Voraussetzung: Raspberry Pi 2/3 Model B/B+ and 4 mit Raspbian
