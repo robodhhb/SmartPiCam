@@ -48,7 +48,7 @@ Die Installation besteht aus:
 Bekannte Probleme:
 a)  Falls das Paket "ImageTk" nicht gefunden wird, muss es noch
     installiert werden mit:
-    sudo aptitude install python3-pil.imagetk
+    sudo apt install python3-pil.imagetk
 
 b) Meldung nach dem Laden des Modells:
    W0422 10:54:13.042898    2007 package_registry.cc:65] 
@@ -107,7 +107,7 @@ Installation steps:
    
 Known issues:
 a)  If the paket "ImageTk" cannot be found, it has to be installed with:
-    sudo aptitude install python3-pil.imagetk
+    sudo apt install python3-pil.imagetk
 
 b) After loading the model, the following message can be ignored. 
    Google is working on it.
