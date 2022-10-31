@@ -16,7 +16,8 @@ Das Projekt ist ausführlich beschrieben im Artikel "Objekterkennung mit Pi-Kame
 und Edge-TPU", deutsches Make-Magazin 03/2019, 20.06.2019, Seite 58-62.
 https://www.heise.de/select/make/2019/3/1561278575740040
 
-Siehe auch: https://github.com/robodhhb/RoboPiCam
+Siehe auch: https://github.com/robodhhb/RoboPiCam \
+            https://github.com/robodhhb/Smart-Modelrailway-Cam
 
 ## Welcome to the SmartPiCam!
 
@@ -33,5 +34,6 @@ the actual API for the Edge TPU. This project is described in the article
 "Objekterkennung mit Pi-Kamera und Edge-TPU", german Make Magazine 03/2019, 20.6.2019, p. 58-62.
 https://www.heise.de/select/make/2019/3/1561278575740040
 
-See also: https://github.com/robodhhb/RoboPiCam
+See also: https://github.com/robodhhb/RoboPiCam \
+          https://github.com/robodhhb/Smart-Modelrailway-Cam
 
